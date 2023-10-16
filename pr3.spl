@@ -1,0 +1,9 @@
+>>output literal integer 0
+Out L0
+Loop
+>>buffer two values from stream 2, and one from stream 1
+Buffer #2 @2
+Buffer #1 @1
+>>output the second value from the stream 2 and first from the stream 1 buffers
+Out (Release #2 @2)
+Out (Release #1 @1)

@@ -1,0 +1,8 @@
+Loop
+Buffer #2 @1
+Buffer #3 @2
+Out (Release #1 @1)
+Out (Release #2 @1)
+Out (Release #1 @2)
+Out (Release #2 @2)
+Out (Release #3 @2)

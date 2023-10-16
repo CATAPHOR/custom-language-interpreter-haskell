@@ -1,0 +1,9 @@
+>>loop continues until automatic termination when release attempted from empty buffer
+Loop
+>>buffer two vals from stream 1, and one from stream 2
+Buffer #2 @1
+Buffer #1 @2
+>>output the two vals of the stream 1 buffer, then the one from stream 2
+Out (Release #1 @1)
+Out (Release #2 @1)
+Out (Release #1 @2)

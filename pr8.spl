@@ -1,0 +1,19 @@
+Loop
+Buffer #5 @1
+Buffer #5 @2
+Out (Release #1 @1)
+Out (Release #1 @2)
+SetVar ~1 (Sub (Release #1 @2) (Release #1 @1))
+Out (Release #2 @1)
+Out (Release #2 @2)
+SetVar ~1 (Add (Var 1) (Sub (Release #2 @2) (Release #2 @1)))
+Out (Release #3 @1)
+Out (Release #3 @2)
+SetVar ~1 (Add (Var 1) (Sub (Release #3 @2) (Release #3 @1)))
+Out (Release #4 @1)
+Out (Release #4 @2)
+SetVar ~1 (Add (Var 1) (Sub (Release #4 @2) (Release #4 @1)))
+Out (Release #5 @1)
+Out (Release #5 @2)
+SetVar ~1 (Add (Var 1) (Sub (Release #5 @2) (Release #5 @1)))
+Out (Var 1)

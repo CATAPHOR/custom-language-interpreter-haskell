@@ -1,0 +1,9 @@
+>>setVar used to create accumulator, initial value 0
+SetVar ~1 L0
+Loop
+>>buffer one element from stream 1
+Buffer #1 @1
+>>add buffered element to accumulator value
+SetVar ~1 (Add (Release #1 @1) (Var 1))
+>>output the value of the accumulator
+Out (Var 1)

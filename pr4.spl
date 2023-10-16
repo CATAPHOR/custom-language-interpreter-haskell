@@ -1,0 +1,9 @@
+Loop
+>>buffer 3 values from stream 1
+Buffer #3 @1
+>>output third value from stream 1 buffer
+Out (Release #3 @1)
+>>output result of multiplying the second stream 1 buffer value by the literal 2
+Out (Mul L2 (Release #2 @1))
+>>output the result of subbing literal 1 from first stream 1 buffer value multiplied by literal 3
+Out (Sub L1 (Mul 3 (Release #1 @1)))

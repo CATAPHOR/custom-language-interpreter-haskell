@@ -1,0 +1,6 @@
+SetVar ~1 L0
+Loop
+Buffer #1 @1
+SetVar 1 (Add (Var 1) L1)
+Out (Release #1 @1)
+Out (Var 1)
